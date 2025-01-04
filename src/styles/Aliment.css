@@ -1,0 +1,24 @@
+.interaction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.search-zone{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.input-search{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.create-aliment{
+    align-self: center;
+    margin-bottom: 30px;
+}

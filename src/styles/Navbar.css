@@ -1,0 +1,32 @@
+.navbar {
+    padding: 200px 10px;
+    height: 100%;
+    width: 15vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contain-btn-nav{
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 60%;
+}
+
+.btn-nav{
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-nav:hover{
+    transform: translate(20px, 0);
+}
