@@ -95,7 +95,7 @@ function Aliments() {
     let multiplicateur = 1;
 
     return aliments
-      .filter((aliment) => {
+      .filter((aliment :any) => {
         if (criteres.calories) {
           multiplicateur = criteres.calories / aliment.calories;
         }
@@ -132,7 +132,7 @@ function Aliments() {
           glucidesCorrespondent
         );
       })
-      .map((aliment) => {
+      .map((aliment : any) => {
         // Ajout du multiplicateur au résultat final
         return {
           ...aliment,
